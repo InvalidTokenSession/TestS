@@ -1,0 +1,112 @@
+/*
+#d4d4d4
+#707070
+#1f1f1f
+#731010
+#a8OOOO
+*/
+
+html {
+    background-color: #d4d4d4;
+}
+
+p {
+    font-family: athelas;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0px; 
+    padding: 0px;
+}
+
+.logo {
+    background-color: #731010;
+    text-align: center;
+}
+
+#logo-image {
+    margin: 0.5vh;
+    height: 10vh;
+    border: 2px solid black;
+}
+
+#landing-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(42, 42, 42, 0.6)),url('../Images/Blacksamuraiarmor.jpg');
+    margin: 10%;
+    margin-top: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 600px;
+    
+}
+
+.horizontal-links {
+    display: inline-block;
+    margin-left: 17%;
+    margin-top: 20px;
+}
+.navbar-links {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:#111111;
+    position: absolute;
+
+}
+.footer-title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer-item {
+    display: inline-block;
+    margin-left: 15%;
+}
+
+footer > * {
+    color: white;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-gap: 1vw;
+    color: #444;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  
+.product {
+    background-color: #1f1f1f;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    min-height: 10vh;
+}
+
+.product > img {
+    height: 15vh;
+    border: 2px solid black;
+}
+
+.checkout-info {
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    background-color: #1f1f1f;
+    color: #db6060;
+    border-radius: 5px;
+}
